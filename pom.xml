@@ -84,10 +84,6 @@
 			<id>scijava.public</id>
 			<url>http://maven.scijava.org/content/groups/public</url>
 		</repository>
-		<repository>
-			<id>imagej.public</id>
-			<url>http://maven.imagej.org/content/groups/public</url>
-		</repository>
 	</repositories>
 
 	<dependencies>
@@ -101,23 +97,11 @@
 		</dependency>
 		<dependency>
 			<groupId>net.imglib2</groupId>
-			<artifactId>imglib2-ij</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.imglib2</groupId>
 			<artifactId>imglib2-realtransform</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>net.imglib2</groupId>
-			<artifactId>imglib2-roi</artifactId>
 		</dependency>
 		<dependency>
     		<groupId>net.imglib2</groupId>
     		<artifactId>imglib2-algorithm</artifactId>
-		</dependency>
-		<dependency>
-    		<groupId>net.imglib2</groupId>
-    		<artifactId>imglib2-algorithm-fft</artifactId>
 		</dependency>
 		<dependency>
             <groupId>org.scijava</groupId>
@@ -128,10 +112,6 @@
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-ops</artifactId>
 		</dependency>
-        <dependency>
-        	<groupId>io.scif</groupId>
-        	<artifactId>scifio</artifactId>
-        </dependency>
         <dependency>
         	<groupId>uk.me.berndporr</groupId>
         	<artifactId>iirj</artifactId>
