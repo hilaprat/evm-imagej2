@@ -14,7 +14,7 @@ Then, move the jar file to Fiji.app/jars directory.
 
 ***Installing EVM plugin***
 
-Download EVM_<version>.jar from target directory of this repository. 
+Download EVM_\<version\>.jar from target directory of this repository. 
 Move the file to Fiji.app/plugins directory.
 
 Now you can run Fiji.app and use EVM plugin according to the Usage segment.
